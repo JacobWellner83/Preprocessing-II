@@ -9,6 +9,9 @@
   padding-left: 5rem;
   color: #FFFFFF;
 }
+.button-base:hover {
+  background-color: #17A2B8;
+}
 .btn {
   background-color: #167F7C;
   border-radius: 1rem;
@@ -19,6 +22,9 @@
   padding-right: 5rem;
   padding-left: 5rem;
   color: #FFFFFF;
+}
+.btn:hover {
+  background-color: #17A2B8;
 }
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -191,7 +197,7 @@ img {
   margin: 0 auto;
 }
 hr {
-  border-bottom: 1px dashed #C0C0C0;
+  border: 1px dashed #C0C0C0;
 }
 .footer {
   width: 100%;

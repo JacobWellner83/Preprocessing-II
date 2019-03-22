@@ -9,8 +9,18 @@
     padding-right: @size+4;
     padding-left: @size+4;
     color: @white;
+
+    &:hover {
+        background-color: @button-bg;
+    }
 }
 
 .btn {
-    .button-base;
+    .button-base()
+}
+
+.mobile(@set) {
+    @media (max-width: @mobile) {
+        @set();
+    }
 }
