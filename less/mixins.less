@@ -1,1 +1,16 @@
 // Mixins in here
+.button-base {
+    background-color: #167F7C;
+    border-radius: 1rem;
+    display: inline-block;
+    font-size: 1.5rem;
+    padding-top: @size+.15;
+    padding-bottom: @size+.15;
+    padding-right: @size+4;
+    padding-left: @size+4;
+    color: @white;
+}
+
+.btn {
+    .button-base;
+}
