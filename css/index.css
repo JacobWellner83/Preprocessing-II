@@ -12,7 +12,7 @@
 .button-base:hover {
   background-color: #17A2B8;
 }
-.btn {
+button {
   background-color: #167F7C;
   border-radius: 1rem;
   display: inline-block;
@@ -23,7 +23,7 @@
   padding-left: 5rem;
   color: #FFFFFF;
 }
-.btn:hover {
+button:hover {
   background-color: #17A2B8;
 }
 /* http://meyerweb.com/eric/tools/css/reset/ 
