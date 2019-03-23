@@ -9,7 +9,7 @@
   padding-left: 5rem;
   color: #FFFFFF;
 }
-@media screen {
+@media (max-width: 500px) {
   .button-base {
     background-color: #17A2B8;
   }
@@ -28,13 +28,16 @@ button {
   padding-left: 5rem;
   color: #FFFFFF;
 }
-@media screen {
+@media (max-width: 500px) {
   button {
     background-color: #17A2B8;
   }
 }
 button:hover {
   background-color: #17A2B8;
+}
+@media all and (max-width: 500px) {
+  width: 500px;
 }
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -224,7 +227,7 @@ header {
   margin: 0 auto;
   max-width: 800px;
 }
-@media screen {
+@media (max-width: 500px) {
   header {
     width: 95%;
     flex-direction: column;
@@ -275,7 +278,7 @@ a:active {
   flex-wrap: wrap;
   justify-content: space-between;
 }
-@media screen {
+@media (max-width: 500px) {
   .home .content-section {
     flex-direction: column;
     align-items: center;
@@ -286,7 +289,7 @@ a:active {
   width: 48%;
   padding-right: 1%;
 }
-@media screen {
+@media (max-width: 500px) {
   .home .content-section .text-content {
     width: 90%;
     padding-left: 5%;
@@ -296,7 +299,7 @@ a:active {
   width: 48%;
   padding-left: 1%;
 }
-@media screen {
+@media (max-width: 500px) {
   .home .content-section .img-content {
     width: 90%;
     padding-left: 5%;
@@ -309,7 +312,7 @@ a:active {
   padding-bottom: 30px;
   border-bottom: 2px dashed #C0C0C0;
 }
-@media screen {
+@media (max-width: 500px) {
   .home .inverse-content {
     flex-direction: column;
     flex-direction: column-reverse;
@@ -321,7 +324,7 @@ a:active {
   padding-left: 1%;
   padding-right: 0;
 }
-@media screen {
+@media (max-width: 500px) {
   .home .inverse-content .text-content {
     width: 90%;
     padding-left: 5%;
@@ -331,7 +334,7 @@ a:active {
   padding-right: 1%;
   padding-left: 0;
 }
-@media screen {
+@media (max-width: 500px) {
   .home .inverse-content .img-content {
     width: 90%;
     padding-left: 5%;
@@ -341,7 +344,7 @@ a:active {
   width: 75%;
   margin: 0 auto 30px;
 }
-@media screen {
+@media (max-width: 500px) {
   .home .content-destination {
     width: 90%;
   }
@@ -355,7 +358,7 @@ a:active {
   display: flex;
   justify-content: space-between;
 }
-@media screen {
+@media (max-width: 500px) {
   .home .content-pick {
     flex-direction: column;
     align-items: center;
@@ -366,12 +369,12 @@ a:active {
   width: 30%;
   margin-bottom: 30px;
 }
-@media screen {
+@media (max-width: 500px) {
   .home .content-pick .destination {
     width: 75%;
   }
 }
-@media screen {
+@media (max-width: 500px) {
   .home .content-welcome {
     width: 95%;
     display: flex;
@@ -393,13 +396,13 @@ a:active {
   margin: 0 auto;
   max-width: 800px;
 }
-@media screen {
+@media (max-width: 500px) {
   .header-style {
     width: 95%;
     flex-direction: column;
   }
 }
-@media screen {
+@media (max-width: 500px) {
   h1 {
     width: 95%;
     text-align: center;
