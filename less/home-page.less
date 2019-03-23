@@ -5,17 +5,28 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    @media screen {
+      flex-direction: column;
+      align-items: center;
+      margin: 10px;
+    }
 
-   
-    
     .text-content {
       width: 48%;
       padding-right: 1%;
+      @media screen {
+        width: 90%;
+        padding-left: 5%;
+      }
     }
 
     .img-content {
       width: 48%;
       padding-left: 1%;
+      @media screen {
+        width: 90%;
+        padding-left: 5%;
+      }
 
       img {
         border-radius: 10px;
@@ -26,21 +37,38 @@
   .inverse-content {
     padding-bottom: 30px;
     border-bottom: 2px dashed @navigation-border;
+    @media screen {
+      flex-direction: column;
+      flex-direction: column-reverse;
+      align-items: center;
+      margin: 10px;
+    }
 
     .text-content {
       padding-left: 1%;
       padding-right: 0;
+      @media screen {
+        width: 90%;
+        padding-left: 5%;
+      }  
     }
 
     .img-content {
       padding-right: 1%;
       padding-left: 0;
+      @media screen {
+        width: 90%;
+        padding-left: 5%;
+      }
     }
   }
 
   .content-destination {
     width: 75%;
     margin: 0 auto 30px;
+    @media screen {
+      width: 90%;
+    }
 
     img {
       border-radius: 10px;
@@ -52,14 +80,32 @@
     border-top: 2px dashed @navigation-border;
     display: flex;
     justify-content: space-between;
+    @media screen {
+      flex-direction: column;
+      align-items: center;
+      justify-content: stretch;
+    }
 
     .destination {
       width: 30%;
       margin-bottom: 30px;
+      @media screen {
+        width: 75%;
+      }
     }
   }
 
-
+  .content-welcome {
+    @media screen {
+      width: 95%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding-left: 5%;
+      margin: 0;
+    }
+  }
 }// home
 
 .header-style {
@@ -72,4 +118,16 @@
   flex-wrap: nowrap;
   margin: 0 auto;
   max-width: 800px;
+  @media screen {
+    width: 95%;
+    flex-direction: column;
+  }
+}
+
+h1 {
+  @media screen {
+    width: 95%;
+    text-align: center;
+    margin-bottom: 2.5rem;
+  }
 }
